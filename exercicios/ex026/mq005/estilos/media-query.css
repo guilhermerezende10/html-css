@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*Typical Device Breackpoints
+
+Pequenas Telas: max 600px
+Celular: min 600px, max 767px
+Tablet: min 768, max1023
+Desktop: min 1024
+Grandes Telas: min 1200px
+
+*/
+
+@media screen and (min-width:768px) {
+    i#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:768px) {
+    
+}
+
+@media screen and (min-width:768px) {
+    
+}
